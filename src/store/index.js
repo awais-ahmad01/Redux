@@ -4,10 +4,13 @@ import { configureStore } from "@reduxjs/toolkit";
 //and then this information goes to reducer and reduce perform some logic and then send final result to the store.
 //for creating store , reducer is necessary but can be created without action
 
+import moviesReducer from './movies';
+
+
 
 export const store = configureStore({
     reducer:{
-        
+        movie:moviesReducer
     }
 }
 )
