@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 // createSlice is used to create reducers
 
 export const moviesSlice = createSlice({   //this is a movies reducer
-    name:'movie',
+    name:'movies',
     initialState:{
         list:[
             {id:1, title:'Pulp fiction'},
