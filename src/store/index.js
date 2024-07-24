@@ -12,7 +12,7 @@ import usersReducer from './users';
 
 export const store = configureStore({
     reducer:{
-        movie:moviesReducer,
+        movies:moviesReducer,
         users:usersReducer
     }
 }
